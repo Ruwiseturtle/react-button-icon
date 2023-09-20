@@ -1,21 +1,28 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import css from './IconButton.module.css';
+// import PropTypes from 'prop-types';
+
+
 
 const IconButton = ({ children, onClick }) => (
-  <button type="button" className="iconButton" onClick={onClick}>
+
+  <button 
+    type="button"
+    className={css.IconButton}
+    onClick={onClick}>
     {children}
   </button>
 );
 
-IconButton.defaultProps = {
-  onClick: () => null,
-  children: null,
-};
+// IconButton.defaultProps = {
+//   onClick: () => null,
+//   children: null,
+// };
 
-IconButton.propTypes = {
-  onClick: PropTypes.func,
-  children: PropTypes.node,
-  'aria-label': PropTypes.string.isRequired,
-};
+// IconButton.propTypes = {
+//   onClick: PropTypes.func,
+//   children: PropTypes.node,
+//   'aria-label': PropTypes.string.isRequired,
+// };
 
 export default IconButton;
