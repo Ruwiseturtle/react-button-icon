@@ -10,3 +10,5 @@ class App extends Component {
     return <div>React homework template</div>;
   }
 }
+
+export default App;
