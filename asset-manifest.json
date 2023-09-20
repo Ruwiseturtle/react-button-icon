@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-button-icon/static/css/main.c3cb19f0.css",
+    "main.js": "/react-button-icon/static/js/main.51c53ed1.js",
+    "index.html": "/react-button-icon/index.html",
+    "static/media/plus.svg": "/react-button-icon/static/media/plus.c610c082931d43928291726b9b61d1f1.svg",
+    "static/media/minus.svg": "/react-button-icon/static/media/minus.d00f6316356680c535c42a0d3bfa4283.svg",
+    "main.c3cb19f0.css.map": "/react-button-icon/static/css/main.c3cb19f0.css.map",
+    "main.51c53ed1.js.map": "/react-button-icon/static/js/main.51c53ed1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3cb19f0.css",
+    "static/js/main.51c53ed1.js"
+  ]
+}
